@@ -1,0 +1,89 @@
+@charset "UTF-8";
+header {
+    margin-bottom: 50x;
+    /* padding-left: 30px; */
+    border: solid 2px rgb(211, 211, 211);
+    display: flex;
+}
+
+header .left-box {
+    border-right: solid 2px rgb(211, 211, 211);
+    padding: 30px;
+    text-decoration: none;
+}
+
+.left-box h1 {
+    font-family: serif;
+    color: black;
+}
+
+header .menu-bar {
+    /* background-color: red; */
+    width: 50%;
+    height: 40px;
+}
+
+main {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+main h1 {
+    width: 30%;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    font-size: 70px;
+    z-index: 999;
+    font-family: serif;
+    background: linear-gradient(transparent 70%, yellow 70%);
+}
+
+main h2 {
+    width: 10%;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    font-size: 70px;
+    z-index: 999;
+    font-family: serif;
+    background: linear-gradient(transparent 70%, yellow 70%);
+}
+
+main .vioret-box {
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(216, 165, 216);
+    position: absolute;
+}
+
+main .green-box {
+    width: 80%;
+    height: 20vh;
+    background-color: rgb(223, 253, 174);
+    position: absolute;
+    top: 80%;
+}
+
+main .gray-box {
+    width: 40%;
+    height: 20vh;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+main .topic {
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    /* z-index: 999; */
+    top: 10%;
+    left: 12%;
+}

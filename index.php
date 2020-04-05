@@ -12,7 +12,7 @@
     <div id="index">
         <header>
             <h1 class="serif">ITと就活の情報サイト</h1>
-
+            
         </header>
         
     </div>
