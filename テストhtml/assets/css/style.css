@@ -177,3 +177,22 @@ main .topic {
     top: 10%;
     left: 12%;
 }
+
+.articles {
+    border: solid 2px whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+}
+
+article {
+    height: 1000px;
+    /* background-color: whitesmoke; */
+}
+
+article h2 {
+    font-size: 40px;
+    margin: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 5px tomato;
+    font-family: serif;
+}
