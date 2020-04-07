@@ -13,12 +13,31 @@ $(function() {
         $(".bar2").delay(1500).animate({ width: '-100%' }, 2000).delay(1100);
         $(".bar3").delay(1800).animate({ width: '-100%' }, 2000).delay(800);
         $(".bar4").delay(2100).animate({ width: '-100%' }, 2000).delay(500);
-
-
-
-
     }, 0)
 
+    var rec = $(".rec").offset().top;
+    var it = $(".it").offset().top;
+    var study = $(".study").offset().top;
+    $("#scroll_btn1").click(function() {
+        $("body,html").animate({
+            scrollTop: rec
+        }, 700, "swing");
+        return false;
+    });
+    $("#scroll_btn2").click(function() {
+        $("body,html").animate({
+            scrollTop: it
+        }, 500, "swing");
+        return false;
+    });
+    $("#scroll_btn3").click(function() {
+        $("body,html").animate({
+            scrollTop: study
+        }, 500, "swing");
+        return false;
+    });
 
 
 });
+var rec = $(".rec").offset().top;
+// console.log(rec);
