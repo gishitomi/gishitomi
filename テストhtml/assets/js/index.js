@@ -16,28 +16,34 @@ $(function() {
     }, 0)
 
     var rec = $(".rec").offset().top;
+    // var rec = $(".rec").offset({ top: 1000 });
+
     var it = $(".it").offset().top;
     var study = $(".study").offset().top;
     $("#scroll_btn1").click(function() {
         $("body,html").animate({
-            scrollTop: rec
+            scrollTop: rec - 30
         }, 700, "swing");
         return false;
     });
     $("#scroll_btn2").click(function() {
         $("body,html").animate({
-            scrollTop: it
+            scrollTop: it - 30
         }, 500, "swing");
         return false;
     });
     $("#scroll_btn3").click(function() {
         $("body,html").animate({
-            scrollTop: study
+            scrollTop: study - 30
         }, 500, "swing");
         return false;
     });
 
 
 });
-var rec = $(".rec").offset().top;
-// console.log(rec);
+// var rec = $(".rec").offset({ top: 1000 });
+// var it = $(".it").offset().top;
+// var study = $(".study").offset().top;
+// console.log(rec.top);
+// console.log(it);
+// console.log(study);

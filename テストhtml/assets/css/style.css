@@ -63,6 +63,10 @@ header .menu-bar {
     font-family: serif;
 }
 
+.menu-bar i {
+    color: gray;
+}
+
 main {
     background-color: white;
     height: 100vh;
