@@ -20,6 +20,7 @@ $(function() {
 
     var it = $(".it").offset().top;
     var study = $(".study").offset().top;
+    var dialy = $(".dialy").offset().top;
     $("#scroll_btn1").click(function() {
         $("body,html").animate({
             scrollTop: rec - 30
@@ -35,6 +36,12 @@ $(function() {
     $("#scroll_btn3").click(function() {
         $("body,html").animate({
             scrollTop: study - 30
+        }, 500, "swing");
+        return false;
+    });
+    $("#scroll_btn4").click(function() {
+        $("body,html").animate({
+            scrollTop: dialy - 30
         }, 500, "swing");
         return false;
     });
