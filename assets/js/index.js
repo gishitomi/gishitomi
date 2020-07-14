@@ -49,6 +49,26 @@ $(function() {
         $(".right-box span").toggleClass("clicked");
         $(".menu-wrapper").toggleClass("clicked");
     });
-
-
 });
+
+// vue.js
+
+var app = new Vue({
+    el: '#app-note',
+    data: {
+        message: 'こんにちは'
+    },
+    methods: {
+        getHTML: function() {
+            var vm = this
+                // var params = { page: 1, per_page: 20, query: 'HTML' }
+            axios.get('https://qiita.com/api/v2/items')
+                .then(function(response) {
+                    console.log(response)
+                })
+                .catch(function(error) {
+                    console.log(error)
+                })
+        }
+    }
+})

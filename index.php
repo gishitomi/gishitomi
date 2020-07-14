@@ -160,9 +160,9 @@
             <article>
                 <h2 class="dialy ">勉強記録</h2>
                 <p>　　　　日々の勉強を記録します</p>
-                <div class="note ">
+                <div class="note " id="app-note">
                     <p>HTML</p>
-                    <br>
+                        
                     <p>CSS</p>
                     <br>
                     <p>JavaScript</p>
@@ -183,6 +183,8 @@
 
 
     <script src="./assets/js/jquery.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js"></script>
     <script src="./assets/js/index.js "></script>
 </body>
 
